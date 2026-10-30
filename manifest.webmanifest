@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "Привычка · Grammar Lab",
+  "short_name": "Привычка",
+  "description": "Used to, would, be used to и get used to. Понятная грамматика B1–B2, повторение и голос Ryan.",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a1b1d",
+  "theme_color": "#1a1b1d",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

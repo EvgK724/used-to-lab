@@ -1,0 +1,1430 @@
+{
+  "title": "Привычка",
+  "subtitle": "Четыре конструкции. Один понятный смысл.",
+  "lessons": [
+    {
+      "id": "past",
+      "title": "Раньше было иначе",
+      "form": "used to + verb",
+      "meaning": "Раньше делал / раньше был",
+      "anchor": "Прошлая привычка или состояние → used to + начальная форма.",
+      "explanation": [
+        "Представьте две фотографии: «тогда» и «сейчас». Used to помогает показать разницу. Это может быть повторявшееся действие или длительное состояние.",
+        "В утверждении: used to work. В вопросе и отрицании учимся писать use без d: Did you use to work? / I didn't use to work.",
+        "Для нынешней привычки нужен Present Simple. Для одного завершённого события — Past Simple."
+      ],
+      "examples": [
+        {
+          "en": "I used to read paper newspapers, but now I read the news online.",
+          "ru": "Раньше я читал бумажные газеты, а теперь читаю новости онлайн.",
+          "note": "Повторявшееся действие и контраст с настоящим."
+        },
+        {
+          "en": "This room used to be a small library.",
+          "ru": "Раньше эта комната была небольшой библиотекой.",
+          "note": "Состояние в прошлом: used to подходит и с be."
+        },
+        {
+          "en": "I didn't use to enjoy podcasts, but now I listen every day.",
+          "ru": "Раньше мне не нравились подкасты, а теперь я слушаю каждый день.",
+          "note": "После didn't пишем use to."
+        },
+        {
+          "en": "Did you use to walk to school?",
+          "ru": "Ты раньше ходил в школу пешком?",
+          "note": "Вопрос о привычке: Did + подлежащее + use to."
+        },
+        {
+          "en": "She used to know every neighbour in the building.",
+          "ru": "Раньше она знала всех соседей в доме.",
+          "note": "Know обозначает состояние, а не повторяемое действие."
+        }
+      ],
+      "trap": {
+        "wrong": "I use to read before bed these days.",
+        "right": "I read before bed these days.",
+        "why": "These days говорит о настоящем. Для нынешней привычки используйте Present Simple."
+      },
+      "recall": {
+        "prompt": "Скажите: «Раньше я жил рядом с больницей, но теперь живу за городом».",
+        "answer": "I used to live near the hospital, but now I live outside the city.",
+        "ru": "Раньше я жил рядом с больницей, но теперь живу за городом.",
+        "why": "Live здесь — длительная ситуация в прошлом; used to показывает, что она изменилась."
+      }
+    },
+    {
+      "id": "would",
+      "title": "Бывало, снова и снова",
+      "form": "would + verb",
+      "meaning": "Бывало, делал",
+      "anchor": "Сначала прошлое время в контексте, затем повторявшееся действие.",
+      "explanation": [
+        "Would помогает рассказать, что происходило снова и снова. Сначала задайте прошлый период: as a student, when we lived there или предыдущим предложением.",
+        "Для длительного состояния — например «раньше знал» или «раньше владел» — выбирайте used to. Ограничение относится к этому значению would, а не ко всем сочетаниям would be.",
+        "Used to сильнее подчёркивает отличие от настоящего. Would фокусирует внимание на повторении; о том, продолжается ли привычка сейчас, судим по контексту.",
+        "В отрицании wouldn't нередко означает «отказывался». Чтобы сказать «раньше не делал», обычно яснее didn't use to."
+      ],
+      "examples": [
+        {
+          "en": "When I was a student, I would study in the library every Friday.",
+          "ru": "Когда я был студентом, я обычно занимался в библиотеке каждую пятницу.",
+          "note": "Период назван, действие повторялось. Used to study тоже возможно."
+        },
+        {
+          "en": "During our summer holidays, we would cycle to the lake.",
+          "ru": "Во время летних каникул мы, бывало, ездили на велосипедах к озеру.",
+          "note": "Would создаёт рассказ о повторявшемся действии."
+        },
+        {
+          "en": "At my first job, we would discuss a new article every Monday.",
+          "ru": "На моей первой работе мы каждый понедельник обсуждали новую статью.",
+          "note": "Вымышленный рабочий контекст; discuss — действие."
+        },
+        {
+          "en": "When we lived by the sea, my brother would take photos at sunrise.",
+          "ru": "Когда мы жили у моря, мой брат, бывало, фотографировал на рассвете.",
+          "note": "Начало предложения задаёт прошлый период."
+        },
+        {
+          "en": "I asked him twice, but he wouldn't turn the music down.",
+          "ru": "Я попросил его дважды, но он не хотел делать музыку тише.",
+          "note": "Здесь wouldn't означает отказ, а не отсутствие старой привычки."
+        }
+      ],
+      "trap": {
+        "wrong": "I would own a red bicycle, but I sold it last year.",
+        "right": "I used to own a red bicycle, but I sold it last year.",
+        "why": "Речь о длительном владении, которое закончилось. Own — состояние; для этого смысла выбираем used to."
+      },
+      "recall": {
+        "prompt": "Вспомните привычку: «Когда я учился в университете, я каждое воскресенье звонил родителям». Используйте would.",
+        "answer": "When I was at university, I would call my parents every Sunday.",
+        "ru": "Когда я учился в университете, я каждое воскресенье звонил родителям.",
+        "why": "Прошлый период указан; call — повторявшееся действие. Used to call также передаёт этот смысл."
+      }
+    },
+    {
+      "id": "familiar",
+      "title": "Это уже привычно",
+      "form": "be used to + noun / -ing",
+      "meaning": "Привык / для меня это обычно",
+      "anchor": "Be — состояние. После to: вещь, it или действие с -ing.",
+      "explanation": [
+        "Be used to описывает знакомую, обычную ситуацию. Это не обязательно значит, что она нравится: можно привыкнуть к шуму и всё равно его не любить.",
+        "Здесь to — предлог. Поэтому: used to the noise, used to it, used to working. Не ставьте после него начальную форму глагола.",
+        "Меняется be: am/is/are, was/were, will be. Вопрос и отрицание строятся с be: Are you used to it? / I am not used to it."
+      ],
+      "examples": [
+        {
+          "en": "I'm used to reading articles in English.",
+          "ru": "Я привык читать статьи на английском.",
+          "note": "Это уже знакомое занятие, а не прежняя привычка."
+        },
+        {
+          "en": "She's used to the noise, although she doesn't like it.",
+          "ru": "Она привыкла к шуму, хотя он ей не нравится.",
+          "note": "Привычность не равна удовольствию."
+        },
+        {
+          "en": "Are you used to working with two screens?",
+          "ru": "Ты привык работать с двумя экранами?",
+          "note": "Вопрос с be; после to — working."
+        },
+        {
+          "en": "We weren't used to such cold weather.",
+          "ru": "Мы не были привычны к такой холодной погоде.",
+          "note": "Were показывает привычность в прошлом."
+        },
+        {
+          "en": "The schedule is unusual, but I'm used to it.",
+          "ru": "Расписание необычное, но я к нему привык.",
+          "note": "После to может стоять местоимение it."
+        }
+      ],
+      "trap": {
+        "wrong": "I'm used to read long articles.",
+        "right": "I'm used to reading long articles.",
+        "why": "После be used to нужен -ing: reading. Это означает «читать длинные статьи для меня привычно»."
+      },
+      "recall": {
+        "prompt": "Скажите: «Я привык выступать перед небольшой группой».",
+        "answer": "I'm used to speaking in front of a small group.",
+        "ru": "Я привык выступать перед небольшой группой.",
+        "why": "Состояние привычности: am used to + speaking."
+      }
+    },
+    {
+      "id": "adapting",
+      "title": "Постепенно привыкаю",
+      "form": "get used to + noun / -ing",
+      "meaning": "Привыкать / привыкнуть",
+      "anchor": "Get — переход от нового к знакомому. После to снова -ing.",
+      "explanation": [
+        "Get used to описывает привыкание. Сначала было непривычно, затем становится легче. Сравните процесс getting used to и состояние am used to.",
+        "Get несёт время: got used to — привык; am getting used to — сейчас привыкаю; will get used to — привыкну.",
+        "Have got used to в британском английском подчёркивает достигнутый результат к настоящему. После всей конструкции по-прежнему нужны существительное, местоимение или -ing."
+      ],
+      "examples": [
+        {
+          "en": "I'm getting used to listening without subtitles.",
+          "ru": "Я привыкаю слушать без субтитров.",
+          "note": "Процесс идёт сейчас."
+        },
+        {
+          "en": "It took me a month to get used to the new timetable.",
+          "ru": "Мне понадобился месяц, чтобы привыкнуть к новому расписанию.",
+          "note": "Get used to — переход к привычности; после to здесь существительное."
+        },
+        {
+          "en": "You'll get used to speaking English in meetings.",
+          "ru": "Ты привыкнешь говорить по-английски на встречах.",
+          "note": "Будущее: will get used to + speaking."
+        },
+        {
+          "en": "I've got used to writing short notes after each lesson.",
+          "ru": "Я привык делать короткие записи после каждого урока.",
+          "note": "Есть результат к настоящему: have got used to."
+        },
+        {
+          "en": "She couldn't get used to living so far from her friends.",
+          "ru": "Она никак не могла привыкнуть жить так далеко от друзей.",
+          "note": "После could — get; после used to — living."
+        }
+      ],
+      "trap": {
+        "wrong": "I'm slowly getting used to speak English every day.",
+        "right": "I'm slowly getting used to speaking English every day.",
+        "why": "Меняется get, а после used to остаётся форма с -ing: speaking."
+      },
+      "recall": {
+        "prompt": "Скажите: «Я всё ещё привыкаю к новому рабочему расписанию».",
+        "answer": "I'm still getting used to the new work schedule.",
+        "ru": "Я всё ещё привыкаю к новому рабочему расписанию.",
+        "why": "Still и getting передают незавершённый процесс привыкания."
+      }
+    },
+    {
+      "id": "contrast",
+      "title": "Один контекст — четыре смысла",
+      "form": "used to · would · be used to · get used to",
+      "meaning": "Выберите смысл раньше формы",
+      "anchor": "Раньше → used to. Бывало → would. Уже обычно → be. Привыкаю → get.",
+      "explanation": [
+        "Сначала решите, что вы хотите сказать: о прошлом или о привычности. Затем выберите форму глагола.",
+        "Used to work и would work: после конструкции начальная форма. Be/get used to working: после to форма с -ing.",
+        "В рассказе о прошлом used to и would иногда оба возможны. Не ищите искусственную разницу там, где контекст допускает два варианта.",
+        "Один конкретный случай — Past Simple. Отказ в прошлом может выражаться wouldn't. Смотрите на смысл всей ситуации."
+      ],
+      "examples": [
+        {
+          "en": "I used to work night shifts, but now I only work during the day.",
+          "ru": "Раньше я работал в ночные смены, но теперь работаю только днём.",
+          "note": "Раньше было иначе: used to + work."
+        },
+        {
+          "en": "In my first year at the hospital, I would work a night shift every Friday.",
+          "ru": "В первый год работы в больнице я каждую пятницу работал в ночную смену.",
+          "note": "Бывало регулярно: would + work; used to work тоже возможно."
+        },
+        {
+          "en": "I'm used to working night shifts.",
+          "ru": "Я привык работать в ночные смены.",
+          "note": "Уже привычно: am used to + working."
+        },
+        {
+          "en": "I'm getting used to working night shifts.",
+          "ru": "Я привыкаю работать в ночные смены.",
+          "note": "Привыкание ещё идёт: am getting used to + working."
+        },
+        {
+          "en": "I asked him to swap shifts, but he wouldn't agree.",
+          "ru": "Я попросил его поменяться сменами, но он не согласился.",
+          "note": "Wouldn't agree: он не хотел соглашаться; это не правило о привычках."
+        }
+      ],
+      "trap": {
+        "wrong": "I am used to work at night, so it feels normal now.",
+        "right": "I am used to working at night, so it feels normal now.",
+        "why": "It feels normal now задаёт привычность сейчас. Нужны am used to и working; used to work означало бы прошлую привычку."
+      },
+      "recall": {
+        "prompt": "Передайте два смысла: «Раньше я вставал поздно. Теперь я привык вставать в шесть».",
+        "answer": "I used to get up late. Now I'm used to getting up at six.",
+        "ru": "Раньше я вставал поздно. Теперь я привык вставать в шесть.",
+        "why": "Used to get — прежняя привычка. Am used to getting — знакомая ситуация сейчас."
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "recall-01",
+      "topic": "past",
+      "type": "recall",
+      "level": "B1",
+      "prompt": "Скажите: «Раньше я пил кофе вечером, а теперь нет».",
+      "answer": "I used to drink coffee in the evening, but I don't any more.",
+      "ru": "Раньше я пил кофе вечером, а теперь нет.",
+      "why": "Used to + drink передаёт прежнюю привычку.",
+      "hint": "Сравните «раньше» и «теперь»."
+    },
+    {
+      "id": "recall-02",
+      "topic": "past",
+      "type": "recall",
+      "level": "B1",
+      "prompt": "Скажите: «Раньше этот магазин был маленьким кафе».",
+      "answer": "This shop used to be a small café.",
+      "ru": "Раньше этот магазин был маленьким кафе.",
+      "why": "Прошлое состояние: used to be.",
+      "hint": "Здесь нет повторяющегося действия."
+    },
+    {
+      "id": "recall-03",
+      "topic": "past",
+      "type": "recall",
+      "level": "B1",
+      "prompt": "Спросите: «Ты раньше жил в деревне?»",
+      "answer": "Did you use to live in a village?",
+      "ru": "Ты раньше жил в деревне?",
+      "why": "После did в этой конструкции пишем use to.",
+      "hint": "Вопрос начинается со вспомогательного глагола."
+    },
+    {
+      "id": "recall-04",
+      "topic": "past",
+      "type": "recall",
+      "level": "B1",
+      "prompt": "Скажите: «Раньше я не любил долгие прогулки».",
+      "answer": "I didn't use to like long walks.",
+      "ru": "Раньше я не любил долгие прогулки.",
+      "why": "Отрицание прежнего состояния: didn't use to like.",
+      "hint": "Like здесь — отношение, состояние."
+    },
+    {
+      "id": "recall-05",
+      "topic": "would",
+      "type": "recall",
+      "level": "B1",
+      "prompt": "Опишите через would: «Когда я был ребёнком, мы каждую субботу пекли хлеб».",
+      "answer": "When I was a child, we would bake bread every Saturday.",
+      "ru": "Когда я был ребёнком, мы каждую субботу пекли хлеб.",
+      "why": "Would bake — повторение в заданном прошлом периоде.",
+      "hint": "Сначала укажите период, затем действие."
+    },
+    {
+      "id": "recall-06",
+      "topic": "would",
+      "type": "recall",
+      "level": "B1",
+      "prompt": "Опишите через would: «В школе мы, бывало, играли в шахматы после уроков».",
+      "answer": "At school, we would play chess after lessons.",
+      "ru": "В школе мы, бывало, играли в шахматы после уроков.",
+      "why": "Контекст at school задаёт прошлое; действие повторяется.",
+      "hint": "После would нужна начальная форма."
+    },
+    {
+      "id": "recall-07",
+      "topic": "familiar",
+      "type": "recall",
+      "level": "B1",
+      "prompt": "Скажите: «Я привык к этой погоде».",
+      "answer": "I'm used to this weather.",
+      "ru": "Я привык к этой погоде.",
+      "why": "После be used to может стоять существительное.",
+      "hint": "Речь о том, что уже знакомо."
+    },
+    {
+      "id": "recall-08",
+      "topic": "familiar",
+      "type": "recall",
+      "level": "B1",
+      "prompt": "Спросите: «Ты привык читать с экрана?»",
+      "answer": "Are you used to reading on a screen?",
+      "ru": "Ты привык читать с экрана?",
+      "why": "Вопрос с are; после to ставим reading.",
+      "hint": "Не используйте did для привычности сейчас."
+    },
+    {
+      "id": "recall-09",
+      "topic": "adapting",
+      "type": "recall",
+      "level": "B1",
+      "prompt": "Скажите: «Я привыкаю к новой квартире».",
+      "answer": "I'm getting used to the new flat.",
+      "ru": "Я привыкаю к новой квартире.",
+      "why": "Getting used to показывает процесс сейчас.",
+      "hint": "Пока ещё непривычно, но становится легче."
+    },
+    {
+      "id": "recall-10",
+      "topic": "adapting",
+      "type": "recall",
+      "level": "B1",
+      "prompt": "Скажите: «Ты скоро привыкнешь к этому».",
+      "answer": "You'll soon get used to it.",
+      "ru": "Ты скоро привыкнешь к этому.",
+      "why": "Will get used to — привыкание в будущем.",
+      "hint": "После to можно поставить it."
+    },
+    {
+      "id": "recall-11",
+      "topic": "past",
+      "type": "recall",
+      "level": "B2",
+      "prompt": "Скажите: «Раньше я считал научные статьи слишком сложными, но теперь читаю их каждую неделю».",
+      "answer": "I used to think scientific articles were too difficult, but now I read them every week.",
+      "ru": "Раньше я считал научные статьи слишком сложными, но теперь читаю их каждую неделю.",
+      "why": "Think здесь означает убеждение — длительное состояние.",
+      "hint": "Нужна конструкция для прежнего мнения."
+    },
+    {
+      "id": "recall-12",
+      "topic": "would",
+      "type": "recall",
+      "level": "B2",
+      "prompt": "Воспроизведите через would: «Когда мы работали вместе, она всегда присылала мне интересные подкасты».",
+      "answer": "When we worked together, she would always send me interesting podcasts.",
+      "ru": "Когда мы работали вместе, она всегда присылала мне интересные подкасты.",
+      "why": "Would send — повторявшееся действие; always стоит между would и send.",
+      "hint": "Прошлый период уже назван."
+    },
+    {
+      "id": "recall-13",
+      "topic": "familiar",
+      "type": "recall",
+      "level": "B2",
+      "prompt": "Скажите: «Я не привык к тому, что меня перебивают».",
+      "answer": "I'm not used to being interrupted.",
+      "ru": "Я не привык к тому, что меня перебивают.",
+      "why": "Being interrupted — пассивная форма с -ing после used to.",
+      "hint": "Действие направлено на вас: being + причастие."
+    },
+    {
+      "id": "recall-14",
+      "topic": "adapting",
+      "type": "recall",
+      "level": "B2",
+      "prompt": "Скажите: «Мне потребовалось несколько недель, чтобы привыкнуть работать из дома».",
+      "answer": "It took me several weeks to get used to working from home.",
+      "ru": "Мне потребовалось несколько недель, чтобы привыкнуть работать из дома.",
+      "why": "После took me ... to — get; после used to — working.",
+      "hint": "В предложении два to с разной функцией."
+    },
+    {
+      "id": "recall-15",
+      "topic": "adapting",
+      "type": "recall",
+      "level": "B2",
+      "prompt": "Скажите: «Я уже привык слушать разные акценты».",
+      "answer": "I've already got used to listening to different accents.",
+      "ru": "Я уже привык слушать разные акценты.",
+      "why": "Have got used to показывает результат к настоящему; listening после to.",
+      "hint": "Британский вариант Present Perfect: have got."
+    },
+    {
+      "id": "recall-16",
+      "topic": "contrast",
+      "type": "recall",
+      "level": "B2",
+      "prompt": "Сравните: «Раньше я избегал презентаций. Теперь я привык выступать перед коллегами».",
+      "answer": "I used to avoid presentations. Now I'm used to speaking in front of my colleagues.",
+      "ru": "Раньше я избегал презентаций. Теперь я привык выступать перед коллегами.",
+      "why": "Used to avoid — прежнее действие; am used to speaking — нынешняя привычность.",
+      "hint": "В первой части нет be; во второй он нужен."
+    },
+    {
+      "id": "choose-01",
+      "topic": "past",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Выберите форму для прежнего состояния.",
+      "answer": "I used to have a dog, but now I have a cat.",
+      "ru": "Раньше у меня была собака, а теперь у меня кошка.",
+      "why": "Have здесь означает владение: used to подходит для состояния.",
+      "hint": "Что было раньше, а теперь изменилось?",
+      "sentence": "I ___ have a dog, but now I have a cat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "used to"
+        },
+        {
+          "id": "b",
+          "text": "would"
+        },
+        {
+          "id": "c",
+          "text": "am used to"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "choose-02",
+      "topic": "past",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Восстановите отрицание.",
+      "answer": "She didn't use to enjoy running.",
+      "ru": "Раньше ей не нравился бег.",
+      "why": "После didn't стандартная учебная форма — use to.",
+      "hint": "Прошлое уже выражено словом did.",
+      "sentence": "She didn't ___ enjoy running.",
+      "options": [
+        {
+          "id": "a",
+          "text": "used to"
+        },
+        {
+          "id": "b",
+          "text": "use to"
+        },
+        {
+          "id": "c",
+          "text": "using to"
+        }
+      ],
+      "correct": [
+        "b"
+      ]
+    },
+    {
+      "id": "choose-03",
+      "topic": "past",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Восстановите вопрос.",
+      "answer": "Did they use to travel by train?",
+      "ru": "Они раньше ездили на поезде?",
+      "why": "Did + подлежащее + use to + начальная форма.",
+      "hint": "После did выбирайте use без d.",
+      "sentence": "Did they ___ travel by train?",
+      "options": [
+        {
+          "id": "a",
+          "text": "used to"
+        },
+        {
+          "id": "b",
+          "text": "use to"
+        },
+        {
+          "id": "c",
+          "text": "be used to"
+        }
+      ],
+      "correct": [
+        "b"
+      ]
+    },
+    {
+      "id": "choose-04",
+      "topic": "past",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Подберите форму к одной конкретной поездке.",
+      "answer": "Last Tuesday, I visited the museum for the first time.",
+      "ru": "В прошлый вторник я впервые посетил музей.",
+      "why": "Это одно событие, поэтому Past Simple.",
+      "hint": "For the first time: это не привычка.",
+      "sentence": "Last Tuesday, I ___ the museum for the first time.",
+      "options": [
+        {
+          "id": "a",
+          "text": "used to visit"
+        },
+        {
+          "id": "b",
+          "text": "would visit"
+        },
+        {
+          "id": "c",
+          "text": "visited"
+        }
+      ],
+      "correct": [
+        "c"
+      ]
+    },
+    {
+      "id": "choose-05",
+      "topic": "would",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Выберите любой подходящий вариант: речь о повторении в прошлом.",
+      "answer": "When we were children, we would build snowmen every winter.",
+      "ru": "Когда мы были детьми, мы каждую зиму лепили снеговиков.",
+      "why": "Would и used to оба подходят: период назван, build — повторявшееся действие.",
+      "hint": "Здесь допустимы два варианта.",
+      "sentence": "When we were children, we ___ build snowmen every winter.",
+      "options": [
+        {
+          "id": "a",
+          "text": "would"
+        },
+        {
+          "id": "b",
+          "text": "used to"
+        },
+        {
+          "id": "c",
+          "text": "are used to"
+        }
+      ],
+      "correct": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "choose-06",
+      "topic": "would",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Выберите любой подходящий вариант для старой привычки.",
+      "answer": "At university, I would borrow books every week.",
+      "ru": "В университете я каждую неделю брал книги в библиотеке.",
+      "why": "Would borrow и used to borrow грамматически верны. Was used to потребовало бы borrowing.",
+      "hint": "После пропуска уже стоит начальная форма.",
+      "sentence": "At university, I ___ borrow books every week.",
+      "options": [
+        {
+          "id": "a",
+          "text": "was used to"
+        },
+        {
+          "id": "b",
+          "text": "would"
+        },
+        {
+          "id": "c",
+          "text": "used to"
+        }
+      ],
+      "correct": [
+        "b",
+        "c"
+      ]
+    },
+    {
+      "id": "choose-07",
+      "topic": "would",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Выберите продолжение после would.",
+      "answer": "Every summer as a child, she would walk by the river.",
+      "ru": "В детстве каждое лето она гуляла у реки.",
+      "why": "После would нужна начальная форма без to.",
+      "hint": "Would — модальный глагол.",
+      "sentence": "Every summer as a child, she would ___ by the river.",
+      "options": [
+        {
+          "id": "a",
+          "text": "walking"
+        },
+        {
+          "id": "b",
+          "text": "walk"
+        },
+        {
+          "id": "c",
+          "text": "to walk"
+        }
+      ],
+      "correct": [
+        "b"
+      ]
+    },
+    {
+      "id": "choose-08",
+      "topic": "would",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Как передать именно отказ?",
+      "answer": "I offered him a lift, but he wouldn't accept it.",
+      "ru": "Я предложил его подвезти, но он не хотел соглашаться.",
+      "why": "Wouldn't здесь показывает нежелание принять предложение.",
+      "hint": "Это реакция на одно предложение.",
+      "sentence": "I offered him a lift, but he ___ accept it.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wouldn't"
+        },
+        {
+          "id": "b",
+          "text": "didn't use to"
+        },
+        {
+          "id": "c",
+          "text": "wasn't used to"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "choose-09",
+      "topic": "familiar",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Выберите форму: ранние подъёмы уже привычны.",
+      "answer": "I am used to getting up early.",
+      "ru": "Я привык рано вставать.",
+      "why": "После be used to нужен -ing: getting.",
+      "hint": "Здесь to — предлог.",
+      "sentence": "I am used to ___ early.",
+      "options": [
+        {
+          "id": "a",
+          "text": "get up"
+        },
+        {
+          "id": "b",
+          "text": "getting up"
+        },
+        {
+          "id": "c",
+          "text": "got up"
+        }
+      ],
+      "correct": [
+        "b"
+      ]
+    },
+    {
+      "id": "choose-10",
+      "topic": "familiar",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Восстановите вопрос о привычности.",
+      "answer": "Are you used to the new keyboard?",
+      "ru": "Ты привык к новой клавиатуре?",
+      "why": "Вопрос с be: Are you used to ...?",
+      "hint": "После to стоит существительное, а не глагол.",
+      "sentence": "___ you used to the new keyboard?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Did"
+        },
+        {
+          "id": "b",
+          "text": "Are"
+        },
+        {
+          "id": "c",
+          "text": "Do"
+        }
+      ],
+      "correct": [
+        "b"
+      ]
+    },
+    {
+      "id": "choose-11",
+      "topic": "familiar",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Выберите форму: это привычно сейчас.",
+      "answer": "She is used to working alone now.",
+      "ru": "Она теперь привыкла работать одна.",
+      "why": "Is used to описывает привычность; working стоит после предлога to.",
+      "hint": "Подлежащее she требует is.",
+      "sentence": "She ___ used to working alone now.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is"
+        },
+        {
+          "id": "b",
+          "text": "did"
+        },
+        {
+          "id": "c",
+          "text": "get"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "choose-12",
+      "topic": "familiar",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Выберите форму: в тот момент это было непривычно.",
+      "answer": "We weren't used to the heat when we arrived.",
+      "ru": "Когда мы приехали, мы не были привычны к жаре.",
+      "why": "Were показывает состояние привычности в прошлом.",
+      "hint": "When we arrived задаёт прошлое.",
+      "sentence": "We ___ used to the heat when we arrived.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weren't"
+        },
+        {
+          "id": "b",
+          "text": "didn't"
+        },
+        {
+          "id": "c",
+          "text": "aren't"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "choose-13",
+      "topic": "adapting",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Выберите форму после get used to.",
+      "answer": "You will get used to driving on the left.",
+      "ru": "Ты привыкнешь ездить по левой стороне.",
+      "why": "После get used to — форма с -ing.",
+      "hint": "Will меняет get, но не правило после to.",
+      "sentence": "You will get used to ___ on the left.",
+      "options": [
+        {
+          "id": "a",
+          "text": "drive"
+        },
+        {
+          "id": "b",
+          "text": "driving"
+        },
+        {
+          "id": "c",
+          "text": "drove"
+        }
+      ],
+      "correct": [
+        "b"
+      ]
+    },
+    {
+      "id": "choose-14",
+      "topic": "adapting",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Выберите смысл: процесс идёт сейчас, ещё не всё привычно.",
+      "answer": "I am getting used to the new routine, but it still feels strange.",
+      "ru": "Я привыкаю к новому распорядку, но он всё ещё кажется непривычным.",
+      "why": "Am getting used to — текущий процесс привыкания.",
+      "hint": "Still feels strange указывает на незавершённость.",
+      "sentence": "I ___ the new routine, but it still feels strange.",
+      "options": [
+        {
+          "id": "a",
+          "text": "am getting used to"
+        },
+        {
+          "id": "b",
+          "text": "used to"
+        },
+        {
+          "id": "c",
+          "text": "would"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "choose-15",
+      "topic": "adapting",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Выберите форму для будущего привыкания.",
+      "answer": "Don't worry. You'll get used to it.",
+      "ru": "Не волнуйся. Ты к этому привыкнешь.",
+      "why": "После will — начальная форма get.",
+      "hint": "You'll = you will.",
+      "sentence": "Don't worry. You'll ___ used to it.",
+      "options": [
+        {
+          "id": "a",
+          "text": "be getting to"
+        },
+        {
+          "id": "b",
+          "text": "get"
+        },
+        {
+          "id": "c",
+          "text": "getting"
+        }
+      ],
+      "correct": [
+        "b"
+      ]
+    },
+    {
+      "id": "choose-16",
+      "topic": "contrast",
+      "type": "choose",
+      "level": "B1",
+      "prompt": "Выберите форму для привычки сейчас.",
+      "answer": "These days, I practise English on the bus every morning.",
+      "ru": "Сейчас я каждое утро занимаюсь английским в автобусе.",
+      "why": "Для нынешней привычки используем Present Simple.",
+      "hint": "These days относится к настоящему.",
+      "sentence": "These days, I ___ English on the bus every morning.",
+      "options": [
+        {
+          "id": "a",
+          "text": "used to practise"
+        },
+        {
+          "id": "b",
+          "text": "would practise"
+        },
+        {
+          "id": "c",
+          "text": "practise"
+        }
+      ],
+      "correct": [
+        "c"
+      ]
+    },
+    {
+      "id": "choose-17",
+      "topic": "past",
+      "type": "choose",
+      "level": "B2",
+      "prompt": "Выберите форму для длительного прежнего убеждения.",
+      "answer": "I used to believe that every unfamiliar word needed a translation.",
+      "ru": "Раньше я считал, что каждое незнакомое слово нужно переводить.",
+      "why": "Believe — состояние убеждённости. Для этого смысла used to, а не habitual would.",
+      "hint": "Это мнение, а не действие, повторённое много раз.",
+      "sentence": "I ___ believe that every unfamiliar word needed a translation.",
+      "options": [
+        {
+          "id": "a",
+          "text": "would"
+        },
+        {
+          "id": "b",
+          "text": "used to"
+        },
+        {
+          "id": "c",
+          "text": "am used to"
+        }
+      ],
+      "correct": [
+        "b"
+      ]
+    },
+    {
+      "id": "choose-18",
+      "topic": "would",
+      "type": "choose",
+      "level": "B2",
+      "prompt": "Выберите любой вариант, который подходит в этом рассказе.",
+      "answer": "During my first year as a doctor, I would write a short reflection after every shift.",
+      "ru": "В первый год работы врачом я после каждой смены записывал короткие размышления.",
+      "why": "Would и used to оба подходят для повторения в прошлом. Was used to потребовало бы writing.",
+      "hint": "Речь о повторении, а не о том, было ли это привычно.",
+      "sentence": "During my first year as a doctor, I ___ write a short reflection after every shift.",
+      "options": [
+        {
+          "id": "a",
+          "text": "would"
+        },
+        {
+          "id": "b",
+          "text": "was used to"
+        },
+        {
+          "id": "c",
+          "text": "used to"
+        }
+      ],
+      "correct": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "choose-19",
+      "topic": "familiar",
+      "type": "choose",
+      "level": "B2",
+      "prompt": "Выберите форму: привычно быть тем, кому задают вопросы.",
+      "answer": "She is used to being asked difficult questions.",
+      "ru": "Она привыкла к тому, что ей задают трудные вопросы.",
+      "why": "После to нужна форма с -ing; пассив — being asked.",
+      "hint": "Вопросы задают ей.",
+      "sentence": "She is used to ___ difficult questions.",
+      "options": [
+        {
+          "id": "a",
+          "text": "being asked"
+        },
+        {
+          "id": "b",
+          "text": "be asked"
+        },
+        {
+          "id": "c",
+          "text": "ask"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "choose-20",
+      "topic": "familiar",
+      "type": "choose",
+      "level": "B2",
+      "prompt": "Как передать именно «я привык обходиться без машины»?",
+      "answer": "I am used to not having a car.",
+      "ru": "Я привык обходиться без машины.",
+      "why": "Not относится к having: привычна именно жизнь без машины.",
+      "hint": "Not стоит перед -ing формой.",
+      "sentence": "I am used to ___ a car.",
+      "options": [
+        {
+          "id": "a",
+          "text": "not having"
+        },
+        {
+          "id": "b",
+          "text": "not have"
+        },
+        {
+          "id": "c",
+          "text": "not had"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "choose-21",
+      "topic": "adapting",
+      "type": "choose",
+      "level": "B2",
+      "prompt": "Выберите форму: привыкание завершилось к настоящему.",
+      "answer": "I have finally got used to reading on a tablet.",
+      "ru": "Я наконец привык читать на планшете.",
+      "why": "В британском английском Present Perfect: have got used to. В американском встречается have gotten used to.",
+      "hint": "После have нужна третья форма get.",
+      "sentence": "I have finally ___ used to reading on a tablet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "get"
+        },
+        {
+          "id": "b",
+          "text": "getting"
+        },
+        {
+          "id": "c",
+          "text": "got"
+        }
+      ],
+      "correct": [
+        "c"
+      ]
+    },
+    {
+      "id": "choose-22",
+      "topic": "adapting",
+      "type": "choose",
+      "level": "B2",
+      "prompt": "Выберите форму после couldn't.",
+      "answer": "At first, I couldn't get used to hearing my own recorded voice.",
+      "ru": "Сначала я никак не мог привыкнуть слышать свой голос в записи.",
+      "why": "После модального couldn't — get. После used to — hearing.",
+      "hint": "У двух глаголов здесь разные формы.",
+      "sentence": "At first, I couldn't ___ used to hearing my own recorded voice.",
+      "options": [
+        {
+          "id": "a",
+          "text": "got"
+        },
+        {
+          "id": "b",
+          "text": "get"
+        },
+        {
+          "id": "c",
+          "text": "getting"
+        }
+      ],
+      "correct": [
+        "b"
+      ]
+    },
+    {
+      "id": "choose-23",
+      "topic": "contrast",
+      "type": "choose",
+      "level": "B2",
+      "prompt": "Выберите форму: в прошлом ситуация была привычной, а не просто повторялась.",
+      "answer": "By that stage, we were used to dealing with unexpected changes.",
+      "ru": "К тому этапу мы уже привыкли иметь дело с неожиданными изменениями.",
+      "why": "Were used to — состояние привычности в прошлом.",
+      "hint": "После used to уже есть dealing.",
+      "sentence": "By that stage, we ___ used to dealing with unexpected changes.",
+      "options": [
+        {
+          "id": "a",
+          "text": "were"
+        },
+        {
+          "id": "b",
+          "text": "did"
+        },
+        {
+          "id": "c",
+          "text": "would"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "choose-24",
+      "topic": "contrast",
+      "type": "choose",
+      "level": "B2",
+      "prompt": "Как сказать именно «раньше обычно не обращался за помощью, теперь обращаюсь»?",
+      "answer": "I didn't use to ask for help, but now I do.",
+      "ru": "Раньше я обычно не обращался за помощью, а теперь обращаюсь.",
+      "why": "Didn't use to прямо обозначает отсутствие старой привычки. Wouldn't скорее добавляет смысл нежелания или отказа.",
+      "hint": "Не добавляйте смысл «отказывался».",
+      "sentence": "I ___ ask for help, but now I do.",
+      "options": [
+        {
+          "id": "a",
+          "text": "didn't use to"
+        },
+        {
+          "id": "b",
+          "text": "wouldn't"
+        },
+        {
+          "id": "c",
+          "text": "wasn't used to"
+        }
+      ],
+      "correct": [
+        "a"
+      ]
+    },
+    {
+      "id": "repair-01",
+      "topic": "past",
+      "type": "repair",
+      "level": "B1",
+      "prompt": "Исправьте форму в вопросе о прежней привычке.",
+      "answer": "Did you use to watch cartoons after school?",
+      "ru": "Ты раньше смотрел мультфильмы после школы?",
+      "why": "В стандартном учебном письме после did: use to.",
+      "hint": "Проверьте окончание после did.",
+      "sentence": "Did you used to watch cartoons after school?"
+    },
+    {
+      "id": "repair-02",
+      "topic": "past",
+      "type": "repair",
+      "level": "B1",
+      "prompt": "Исправьте отрицание о прошлом.",
+      "answer": "I didn't use to carry an umbrella.",
+      "ru": "Раньше я не носил с собой зонт.",
+      "why": "После didn't пишем use to без d.",
+      "hint": "Прошлое уже выражено did.",
+      "sentence": "I didn't used to carry an umbrella."
+    },
+    {
+      "id": "repair-03",
+      "topic": "past",
+      "type": "repair",
+      "level": "B1",
+      "prompt": "Смысл: «раньше я читал комиксы». Уберите лишнюю форму.",
+      "answer": "I used to read comics as a child.",
+      "ru": "В детстве я читал комиксы.",
+      "why": "Для прошлой привычки used to read не требует was.",
+      "hint": "Нужно «раньше делал», а не «было привычно».",
+      "sentence": "I was used to read comics as a child."
+    },
+    {
+      "id": "repair-04",
+      "topic": "would",
+      "type": "repair",
+      "level": "B1",
+      "prompt": "Исправьте форму глагола после would.",
+      "answer": "When I was little, I would visit my aunt every weekend.",
+      "ru": "Когда я был маленьким, я каждые выходные навещал тётю.",
+      "why": "После would используем начальную форму без to.",
+      "hint": "Would — модальный глагол.",
+      "sentence": "When I was little, I would to visit my aunt every weekend."
+    },
+    {
+      "id": "repair-05",
+      "topic": "familiar",
+      "type": "repair",
+      "level": "B1",
+      "prompt": "Смысл: «я привык работать по выходным».",
+      "answer": "I am used to working at weekends.",
+      "ru": "Я привык работать по выходным.",
+      "why": "После be used to глагол принимает -ing.",
+      "hint": "Проверьте слово сразу после to.",
+      "sentence": "I am used to work at weekends."
+    },
+    {
+      "id": "repair-06",
+      "topic": "familiar",
+      "type": "repair",
+      "level": "B1",
+      "prompt": "Смысл: «ты привык к этому маршруту?»",
+      "answer": "Are you used to this route?",
+      "ru": "Ты привык к этому маршруту?",
+      "why": "Привычность: be used to. В вопросе are ставим перед you.",
+      "hint": "После to здесь существительное.",
+      "sentence": "Do you used to this route?"
+    },
+    {
+      "id": "repair-07",
+      "topic": "adapting",
+      "type": "repair",
+      "level": "B1",
+      "prompt": "Исправьте фразу о текущем привыкании.",
+      "answer": "I am getting used to waking up earlier.",
+      "ru": "Я привыкаю просыпаться раньше.",
+      "why": "После get used to требуется waking, а не wake.",
+      "hint": "To здесь — предлог.",
+      "sentence": "I am getting used to wake up earlier."
+    },
+    {
+      "id": "repair-08",
+      "topic": "adapting",
+      "type": "repair",
+      "level": "B1",
+      "prompt": "Исправьте форму после will.",
+      "answer": "You will get used to the new software.",
+      "ru": "Ты привыкнешь к новой программе.",
+      "why": "После will нужна начальная форма get.",
+      "hint": "Будущее уже выражено will.",
+      "sentence": "You will got used to the new software."
+    },
+    {
+      "id": "repair-09",
+      "topic": "would",
+      "type": "repair",
+      "level": "B2",
+      "prompt": "Смысл: «раньше я владел магазином, но продал его». Исправьте форму привычного прошлого.",
+      "answer": "I used to own a bookshop, but I sold it five years ago.",
+      "ru": "Раньше у меня был книжный магазин, но я продал его пять лет назад.",
+      "why": "Владение — длительное состояние. Для этого значения используйте used to.",
+      "hint": "Own здесь не повторявшееся действие.",
+      "sentence": "I would own a bookshop, but I sold it five years ago."
+    },
+    {
+      "id": "repair-10",
+      "topic": "familiar",
+      "type": "repair",
+      "level": "B2",
+      "prompt": "Смысл: «она привыкла к тому, что за ней наблюдают во время работы».",
+      "answer": "She is used to being observed while she works.",
+      "ru": "Она привыкла к тому, что за ней наблюдают во время работы.",
+      "why": "Пассив после предлога to: being observed.",
+      "hint": "Нужна форма с -ing, действие направлено на неё.",
+      "sentence": "She is used to be observed while she works."
+    },
+    {
+      "id": "repair-11",
+      "topic": "adapting",
+      "type": "repair",
+      "level": "B2",
+      "prompt": "Исправьте конструкцию «понадобилось время, чтобы привыкнуть».",
+      "answer": "It took me a while to get used to the silence.",
+      "ru": "Мне понадобилось время, чтобы привыкнуть к тишине.",
+      "why": "В took me a while to get слово to относится к инфинитиву get. Второе to — предлог перед silence.",
+      "hint": "Здесь первое to и второе to играют разные роли.",
+      "sentence": "It took me a while to getting used to the silence."
+    },
+    {
+      "id": "repair-12",
+      "topic": "contrast",
+      "type": "repair",
+      "level": "B2",
+      "prompt": "Смысл: «раньше я избегал встреч, теперь привык участвовать». Исправьте последнюю форму.",
+      "answer": "I used to avoid meetings, but now I am used to taking part.",
+      "ru": "Раньше я избегал встреч, но теперь привык участвовать.",
+      "why": "Used to avoid — прошлое. Am used to taking — привычность сейчас.",
+      "hint": "Во второй части есть am.",
+      "sentence": "I used to avoid meetings, but now I am used to take part."
+    },
+    {
+      "id": "listen-01",
+      "topic": "past",
+      "type": "listen",
+      "level": "B1",
+      "prompt": "Послушайте. Что раньше было иначе? Восстановите фразу.",
+      "answer": "I used to take the bus, but now I walk to work.",
+      "ru": "Раньше я ездил на автобусе, а теперь хожу на работу пешком.",
+      "why": "Used to take противопоставляет прежнюю привычку настоящей.",
+      "hint": "Услышьте контраст до и после but."
+    },
+    {
+      "id": "listen-02",
+      "topic": "past",
+      "type": "listen",
+      "level": "B1",
+      "prompt": "Послушайте вопрос и повторите его по памяти.",
+      "answer": "Did you use to play a musical instrument?",
+      "ru": "Ты раньше играл на музыкальном инструменте?",
+      "why": "На письме после did выбираем use to.",
+      "hint": "Сначала вспомните порядок слов в вопросе."
+    },
+    {
+      "id": "listen-03",
+      "topic": "would",
+      "type": "listen",
+      "level": "B1",
+      "prompt": "Послушайте. Какое действие повторялось и когда?",
+      "answer": "When I was at school, I would draw in every notebook.",
+      "ru": "Когда я учился в школе, я рисовал в каждой тетради.",
+      "why": "Would draw описывает повторявшееся действие в названном прошлом периоде.",
+      "hint": "Найдите слова, которые задают прошлое."
+    },
+    {
+      "id": "listen-04",
+      "topic": "familiar",
+      "type": "listen",
+      "level": "B1",
+      "prompt": "Послушайте. Это уже привычно или человек только привыкает?",
+      "answer": "I'm used to eating breakfast early.",
+      "ru": "Я привык рано завтракать.",
+      "why": "Am used to — уже привычное состояние.",
+      "hint": "Обратите внимание, есть ли get/getting."
+    },
+    {
+      "id": "listen-05",
+      "topic": "adapting",
+      "type": "listen",
+      "level": "B1",
+      "prompt": "Послушайте. Восстановите фразу о привыкании.",
+      "answer": "I'm getting used to my new glasses.",
+      "ru": "Я привыкаю к новым очкам.",
+      "why": "Getting used to показывает процесс привыкания.",
+      "hint": "После to здесь предмет, а не действие."
+    },
+    {
+      "id": "listen-06",
+      "topic": "contrast",
+      "type": "listen",
+      "level": "B1",
+      "prompt": "Послушайте. Это старая привычка или привычность сейчас?",
+      "answer": "I didn't use to enjoy cooking.",
+      "ru": "Раньше мне не нравилось готовить.",
+      "why": "Didn't use to относится к прошлому состоянию.",
+      "hint": "Вспомните, что стоит перед use to."
+    },
+    {
+      "id": "listen-07",
+      "topic": "past",
+      "type": "listen",
+      "level": "B2",
+      "prompt": "Послушайте и перескажите изменение отношения.",
+      "answer": "I used to doubt my ability to understand films without subtitles.",
+      "ru": "Раньше я сомневался в своей способности понимать фильмы без субтитров.",
+      "why": "Doubt — состояние сомнения, поэтому used to подходит.",
+      "hint": "Начните с «раньше я сомневался»."
+    },
+    {
+      "id": "listen-08",
+      "topic": "would",
+      "type": "listen",
+      "level": "B2",
+      "prompt": "Послушайте. Восстановите повторявшееся действие и его контекст.",
+      "answer": "Whenever we finished a difficult project, we would go out for dinner.",
+      "ru": "Когда мы завершали сложный проект, мы обычно шли куда-нибудь ужинать.",
+      "why": "Whenever задаёт повторяемую ситуацию в прошлом. Would go описывает типичную реакцию.",
+      "hint": "Whenever означает «каждый раз, когда»."
+    },
+    {
+      "id": "listen-09",
+      "topic": "would",
+      "type": "listen",
+      "level": "B2",
+      "prompt": "Послушайте. Почему здесь wouldn't: привычка или отказ?",
+      "answer": "I suggested another time, but she wouldn't change the appointment.",
+      "ru": "Я предложил другое время, но она не хотела переносить встречу.",
+      "why": "Wouldn't выражает нежелание согласиться на изменение.",
+      "hint": "Человек отреагировал на предложение."
+    },
+    {
+      "id": "listen-10",
+      "topic": "familiar",
+      "type": "listen",
+      "level": "B2",
+      "prompt": "Послушайте. Что уже было привычным к тому моменту?",
+      "answer": "We were used to receiving detailed feedback after every presentation.",
+      "ru": "Мы привыкли получать подробную обратную связь после каждой презентации.",
+      "why": "Were used to — состояние привычности в прошлом; receiving после предлога to.",
+      "hint": "Привычность тоже может относиться к прошлому."
+    },
+    {
+      "id": "listen-11",
+      "topic": "adapting",
+      "type": "listen",
+      "level": "B2",
+      "prompt": "Послушайте. Привыкание продолжается или результат уже достигнут?",
+      "answer": "I've finally got used to reading for pleasure in English.",
+      "ru": "Я наконец привык читать по-английски для удовольствия.",
+      "why": "Have got used to показывает достигнутый результат к настоящему.",
+      "hint": "Finally подсказывает завершившийся переход."
+    },
+    {
+      "id": "listen-12",
+      "topic": "contrast",
+      "type": "listen",
+      "level": "B2",
+      "prompt": "Послушайте обе части. Чем отличаются их смыслы?",
+      "answer": "I used to avoid long conversations, but I'm getting used to speaking for longer.",
+      "ru": "Раньше я избегал долгих разговоров, но теперь привыкаю говорить дольше.",
+      "why": "Первая часть — прежняя привычка. Вторая — процесс привыкания сейчас.",
+      "hint": "Сопоставьте форму после каждого to."
+    }
+  ],
+  "sources": [
+    {
+      "title": "British Council · Past habits",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2-grammar/past-habits-used-to-would-past-simple"
+    },
+    {
+      "title": "British Council · Different uses of used to",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2-grammar/different-uses-of-used-to"
+    },
+    {
+      "title": "Cambridge · Used to",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/used-to"
+    },
+    {
+      "title": "Cambridge · Would",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/will-or-would"
+    }
+  ],
+  "sourceNote": "По темам из ваших фотографий Englex; объяснения и задания написаны заново. Уточнение к таблице: would подходит для привычных повторявшихся действий, но обычно не для длительных состояний в этом значении. Рабочие ситуации вымышлены и служат только для практики языка. Примеры ответов не исключают другие естественные варианты перевода."
+}
