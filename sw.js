@@ -1,4 +1,4 @@
-const CACHE='habit-lab-v1-20261030-r2';
+const CACHE='habit-lab-v1-20261030-r3';
 const BASE=self.registration.scope;
 const SHELL=['./','index.html','styles.css','app.js','engine.js','content.json','manifest.webmanifest','audio/index.json','assets/icon.svg','assets/icon-180.png','assets/icon-192.png','assets/icon-512.png','assets/icon-maskable-512.png','assets/qr.png'];
 const abs=p=>new URL(p,BASE).href;
