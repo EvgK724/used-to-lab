@@ -1,10 +1,13 @@
-const CACHE='habit-lab-v1-20261030-r3';
+const CACHE='habit-lab-v1-20261102-r1';
 const BASE=self.registration.scope;
-const SHELL=['./','index.html','styles.css','app.js','engine.js','content.json','manifest.webmanifest','audio/index.json','assets/icon.svg','assets/icon-180.png','assets/icon-192.png','assets/icon-512.png','assets/icon-maskable-512.png','assets/qr.png'];
+const SHELL=['./','index.html','styles.css','app.js','engine.js','ui-text.js','content.json','manifest.webmanifest','audio/index.json','assets/icon.svg','assets/icon-180.png','assets/icon-192.png','assets/icon-512.png','assets/icon-maskable-512.png','assets/qr.png'];
 const abs=p=>new URL(p,BASE).href;
 let job=null;
 async function broadcast(message){for(const client of await self.clients.matchAll({includeUncontrolled:true,type:'window'}))if(client.url.startsWith(BASE))client.postMessage(message);}
-self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(SHELL.map(abs));await self.skipWaiting();})()));
+// Keep downloaded, content-addressed audio before the old shell cache is retired.
+// If copying fails, installation fails and the previous worker/cache stays usable.
+async function preserveAudio(cache){const manifest=await(await cache.match(abs('audio/index.json'))).json();const oldCaches=await Promise.all((await caches.keys()).filter(key=>key.startsWith('habit-lab-')&&key!==CACHE).map(key=>caches.open(key)));for(const hash of manifest.files){const url=abs(`audio/${hash}.mp3`);if(await cache.match(url))continue;for(const oldCache of oldCaches){const response=await oldCache.match(url);if(response){await cache.put(url,response);break;}}}}
+self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(SHELL.map(abs));await preserveAudio(cache);await self.skipWaiting();})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith('habit-lab-')&&key!==CACHE)await caches.delete(key);await self.clients.claim();})()));
 async function fill(){const cache=await caches.open(CACHE);const response=await cache.match(abs('audio/index.json'))||await fetch(abs('audio/index.json'));const manifest=await response.json();const paths=[...SHELL,...manifest.files.map(hash=>`audio/${hash}.mp3`)];let done=0,index=0;const errors=[];await broadcast({type:'CACHE_PROGRESS',done,total:paths.length});await Promise.all(Array.from({length:4},async()=>{while(index<paths.length){const url=abs(paths[index++]);try{if(!await cache.match(url)){let last;for(let attempt=0;attempt<3;attempt++){try{const r=await fetch(url,{cache:'reload',signal:AbortSignal.timeout(30000)});if(!r.ok)throw new Error(String(r.status));await cache.put(url,r);last=null;break;}catch(e){last=e;}}if(last)throw last;}done++;if(done%5===0||done===paths.length)await broadcast({type:'CACHE_PROGRESS',done,total:paths.length});}catch{errors.push(url);}}}));await broadcast({type:errors.length?'CACHE_ERROR':'CACHE_READY',done,total:paths.length});}
 self.addEventListener('message',event=>{if(event.data?.type==='CACHE_ALL'){if(!job)job=fill().catch(()=>broadcast({type:'CACHE_ERROR'})).finally(()=>job=null);event.waitUntil(job);}});
